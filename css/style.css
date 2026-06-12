@@ -3,6 +3,7 @@
     --fuenteParrafos: 'Open Sans', sans-serif;
 
     --primario: #784d3C;
+    --secundario: #e6e6e6;
     --gris: #e1e1e1;
     --blanco: #ffffff;
     --negro: #000000; 
@@ -43,7 +44,7 @@
 
 .contenedor {
     max-width: 120rem;
-    width: 90%;
+    width: 90%; /**para que el contenido no se desborde**/
     margin: 0 auto; /**centra el contenido horizontalmente**/
 
 }
@@ -110,6 +111,10 @@ margin-top: 1rem;
         justify-content: space-between; /** alinear horizontalmente**/
         align-items: center; /** Alinear verticalmente**/
     }
+}
+
+.barra {
+    padding-top: 2rem;
 }
 
 .logo {
@@ -212,5 +217,10 @@ margin-top: 1rem;
 .widget-tamales__label,
 .widget-menu__precio { 
     font-size: 2 rem;
+}
 
+.footer {
+    background-color: var(--primario);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
